@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "🧐 Monitoreando actividad de la Hormiga 07 en tiempo real..."
+tail -f enjambre_actividad.log
