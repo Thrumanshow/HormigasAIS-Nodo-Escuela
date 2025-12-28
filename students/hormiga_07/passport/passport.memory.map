@@ -1,0 +1,2 @@
+ALLOW: logs/health/*, metrics/runtime/*
+DENY: genesis_block, other_hormigas/*

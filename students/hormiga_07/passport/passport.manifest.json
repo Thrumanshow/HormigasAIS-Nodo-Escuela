@@ -1,0 +1,7 @@
+{
+  "agent": "HORMIGA_07",
+  "runtime": "python3.11",
+  "dependencies": ["mqtt", "lbh-core"],
+  "energy_mode": "low",
+  "returnable": true
+}
