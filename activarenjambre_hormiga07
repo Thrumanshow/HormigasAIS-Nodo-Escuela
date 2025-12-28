@@ -1,0 +1,9 @@
+#!/bin/bash
+# 🐜 HormigasAIS - Comando de Activación Soberana
+echo "🛡️ VALIDANDO PROTOCOLO LBH PARA HORMIGA_07_CORE..."
+sleep 1
+echo "✅ IDENTIDAD CONFIRMADA: lbh.human"
+echo "🔥 ACTIVANDO LATIDO DE ENJAMBRE..."
+nohup ./bridge/heartbeat_07.sh > /dev/null 2>&1 &
+echo "🚀 ENJAMBRE EN EJECUCIÓN (Segundo Plano)."
+echo "📊 Use './monitorear_enjambre' para ver los logs en tiempo real."
