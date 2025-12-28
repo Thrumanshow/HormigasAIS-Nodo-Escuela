@@ -1,0 +1,9 @@
+Lbh
+CAPACIDADES (CLASE_CORE):
+- health_monitoring
+- thermal_balance
+- contract_validation
+- root_integrity_check
+
+LIMITES:
+- NO modificación de la firma lbh.human

@@ -1,0 +1,8 @@
+Lbh
+PROYECTO_DESTINO: XOXO-Edge-Visualizer
+AUTORIDAD_LOCAL: lbh.human
+AUTORIDAD_SUPREMA: lbh.human
+
+MODO:
+- supervised
+- read_only_core
