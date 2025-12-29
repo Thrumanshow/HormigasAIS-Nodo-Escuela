@@ -1,6 +1,8 @@
 {
-  "protocolo": "LBH-2025-PAZ",
-  "fundador": "CLHQ",
-  "mensaje": "Centinela desactivado. 13 agentes operando en armonía.",
-  "status": "CURADO_TOTAL"
+  "evaluacion": "COMPLETA",
+  "resultado": "SISTEMA_UNIFICADO",
+  "agentes_activos": 10,
+  "jerarquia": "ESTABLE",
+  "estado": "ANTIFRAGIL",
+  "fundador": "CLHQ"
 }
