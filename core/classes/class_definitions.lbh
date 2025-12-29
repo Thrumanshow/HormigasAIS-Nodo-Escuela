@@ -1,0 +1,15 @@
+Lbh
+CLASS_LAB:
+  - TYPE: Sandbox
+  - ACCESS: restricted_temp
+  - PERSISTENCE: ephemeral
+
+CLASS_CLIENT:
+  - TYPE: Operational
+  - ACCESS: local_sensors, mqtt_publish
+  - PERSISTENCE: session_based
+
+CLASS_CORE:
+  - TYPE: Sovereignty
+  - ACCESS: contract_validation, genesis_read, root_health
+  - PERSISTENCE: permanent
