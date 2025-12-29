@@ -1,28 +1,30 @@
-import csv
-import time
-from datetime import datetime
 import random
+from datetime import datetime
 import os
 
-def stream_core_ant():
-    # Ruta absoluta para evitar errores de contexto en Termux
-    file_path = os.path.expanduser('~/HormigasAIS-Nodo-Escuela/visual_demo_stream.csv')
-    ant_id = "HORMIGA_07_CORE"
+def generar_pulso():
+    csv_file = 'visual_demo_stream.csv'
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    id_hormiga = "HORMIGA_07_CORE"
+    estado = "OPERATIONAL"
+    # Simulación de carga/temperatura eficiente (24°C - 26°C)
+    valor_temp = round(random.uniform(24.5, 25.9), 2)
+    firma = "HMAC_2025_VALID_CORE"
+
+    # Crear encabezado si el archivo no existe
+    if not os.path.exists(csv_file):
+        with open(csv_file, 'w') as f:
+            f.write("FECHA_HORA,ID_HORMIGA,ESTADO,DATO_VALOR,FIRMA_LBH\n")
+
+    # Escribir la nueva línea soberana
+    nueva_linea = f"{timestamp},{id_hormiga},{estado},{valor_temp},{firma}\n"
     
-    # Rango de operación estable para la demo
-    value = round(random.uniform(24.5, 25.8), 2)
-    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    signature = "HMAC_2025_VALID_CORE"
+    with open(csv_file, 'a') as f:
+        f.write(nueva_linea)
     
-    # Escribir con tabulaciones para mantener el formato del visualizador
-    with open(file_path, mode='a', newline='') as file:
-        writer = csv.writer(file, delimiter='\t')
-        writer.writerow([timestamp, ant_id, "OPERATIONAL", value, signature])
-    
-    print(f"📡 [HORMIGA 07] Telemetría enviada: {value} | {timestamp}")
+    print(f"📡 [{id_hormiga}] Telemetría enviada: {valor_temp} | {timestamp}")
 
 if __name__ == "__main__":
-    # Generar ráfaga inicial de 5 puntos
+    # Generar 5 pulsos por ciclo para dar volumen al gráfico
     for _ in range(5):
-        stream_core_ant()
-        time.sleep(0.5)
+        generar_pulso()
