@@ -2,10 +2,12 @@
 ## 🛡️ Infraestructura de Inteligencia Distribuida Soberana
 
 ### 📊 Rendimiento del Enjambre (Real-Time CORE)
+
+![Rendimiento del Enjambre](REPORTE_RENDIMIENTO_HORMIGAS.png)
 ![Rendimiento del Enjambre](REPORTE_RENDIMIENTO_HORMIGAS.png)
 
 > **Estado:** Operativo validado por protocolo LBH.
-> **Última Actualización:** Sincronizada por HORMIGA_07_CORE.
+> **Última Actualización: 2025-12-28 19:47:17 CST (LBH-Validated)
 
 ---
 © 2025 HormigasAIS - San Miguel, El Salvador.
