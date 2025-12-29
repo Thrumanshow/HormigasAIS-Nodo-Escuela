@@ -1,8 +1,6 @@
 {
-  "protocolo": "LBH-2025",
+  "protocolo": "LBH-2025-PAZ",
   "fundador": "CLHQ",
-  "origen": "HormigasAIS-Nodo-Escuela",
-  "destino": "xoxo-lbh-adapter",
-  "timestamp": "1766976696",
-  "validacion": "Soberana"
+  "mensaje": "Centinela desactivado. 13 agentes operando en armonía.",
+  "status": "CURADO_TOTAL"
 }
