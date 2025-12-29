@@ -41,6 +41,11 @@ Nodo-Escuela -> Pasaportes LBH -> Autoridad Raíz: lbh.human
 Firma CLHQ: ████████████ DETECTADA
 ────────────────────────────────────
 
-🔐 FIRMA DIGITAL DEL FUNDADOR — LBH (PENDIENTE)
+🔐 FIRMA DIGITAL DEL FUNDADOR — LBH (FIRMADO)
 FUNDADOR: Cristhiam Leonardo Hernández Quiñonez (CLHQ)
 ESTADO FINAL: ✅ AUDITORÍA CERRADA / ENJAMBRE AUTORIZADO
+------------------------------------------------
+FIRMADO POR: Cristhiam Leonardo Hernández Quiñonez
+HASH_LBH: e41ec681dab1f4df90e8e2c9dc0ad5fc78ad0d72722f79750d5e2b2a5566a1f8
+TIMESTAMP_FIRMA: 2025-12-29T04:23:28Z
+ESTADO_VALIDACIÓN: SOBERANÍA_CONFIRMADA
