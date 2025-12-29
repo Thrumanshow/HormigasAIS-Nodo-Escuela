@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2025-12-29T22:27:06.270422",
+    "pulso_hash": "lbh_hash_provisional_2025",
+    "pulso": {
+      "origin": "xoxo-adapter",
+      "instruction": "Validar integridad de red bancaria en San Miguel",
+      "type": "security_check",
+      "execution": "active",
+      "hash": "lbh_hash_provisional_2025"
+    },
+    "categoria": "General"
+  }
+]

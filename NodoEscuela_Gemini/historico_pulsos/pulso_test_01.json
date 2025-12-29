@@ -1,0 +1,7 @@
+{
+  "origin": "xoxo-adapter",
+  "instruction": "Validar integridad de red bancaria en San Miguel",
+  "type": "security_check",
+  "execution": "active",
+  "hash": "lbh_hash_provisional_2025"
+}
