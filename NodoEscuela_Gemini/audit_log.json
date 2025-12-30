@@ -4,5 +4,23 @@
     "evento": "Pulso registrado y limpiado",
     "hash": "lbh_hash_provisional_2025",
     "archivo_original": "pulso_test_01.json"
+  },
+  {
+    "timestamp": "2025-12-29T22:34:46.078476",
+    "evento": "Pulso registrado y limpiado",
+    "hash": "b1",
+    "archivo_original": "banco_01.json"
+  },
+  {
+    "timestamp": "2025-12-29T22:34:46.078700",
+    "evento": "Pulso registrado y limpiado",
+    "hash": "b2",
+    "archivo_original": "banco_02.json"
+  },
+  {
+    "timestamp": "2025-12-29T22:34:46.078784",
+    "evento": "Pulso registrado y limpiado",
+    "hash": "b3",
+    "archivo_original": "banco_03.json"
   }
 ]

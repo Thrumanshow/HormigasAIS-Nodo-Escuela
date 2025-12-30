@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-12-29T22:37:52.593934",
+  "total_eventos": 1,
+  "data_payload": [
+    {
+      "timestamp": "2025-12-29T22:34:46.078784",
+      "pulso_hash": "b3",
+      "pulso": {
+        "origin": "XOXO_HUB",
+        "instruction": "Encriptaci\u00f3n de datos financieros Nivel 3",
+        "hash": "b3",
+        "type": "security",
+        "execution": "active"
+      },
+      "categoria": "Seguridad Bancaria"
+    }
+  ],
+  "status": "WAITING_FOR_GEMINI_ANALYSIS"
+}

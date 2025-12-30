@@ -10,5 +10,41 @@
       "hash": "lbh_hash_provisional_2025"
     },
     "categoria": "General"
+  },
+  {
+    "timestamp": "2025-12-29T22:34:46.078476",
+    "pulso_hash": "b1",
+    "pulso": {
+      "origin": "XOXO_HUB",
+      "instruction": "Monitoreo de transacciones sospechosas en cajeros Centro",
+      "hash": "b1",
+      "type": "security",
+      "execution": "active"
+    },
+    "categoria": "General"
+  },
+  {
+    "timestamp": "2025-12-29T22:34:46.078700",
+    "pulso_hash": "b2",
+    "pulso": {
+      "origin": "XOXO_HUB",
+      "instruction": "Auditor\u00eda de acceso a b\u00f3veda digital - Protocolo LBH",
+      "hash": "b2",
+      "type": "security",
+      "execution": "active"
+    },
+    "categoria": "General"
+  },
+  {
+    "timestamp": "2025-12-29T22:34:46.078784",
+    "pulso_hash": "b3",
+    "pulso": {
+      "origin": "XOXO_HUB",
+      "instruction": "Encriptaci\u00f3n de datos financieros Nivel 3",
+      "hash": "b3",
+      "type": "security",
+      "execution": "active"
+    },
+    "categoria": "Seguridad Bancaria"
   }
 ]
