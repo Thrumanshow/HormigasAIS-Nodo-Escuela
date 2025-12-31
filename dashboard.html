@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>HormigasAIS - Centro de Mando Soberano</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg: #050505; --accent: #00ff41; --dim: #003300; --danger: #ff4141; --text: #e0e0e0; }
+        body { background: var(--bg); color: var(--text); font-family: 'JetBrains Mono', monospace; margin: 0; padding: 20px; overflow: hidden; }
+        .grid { display: grid; grid-template-columns: 1fr 2fr; grid-template-rows: auto 1fr; gap: 20px; height: 95vh; }
+        .header { grid-column: 1 / span 2; border-bottom: 2px solid var(--accent); padding-bottom: 10px; display: flex; justify-content: space-between; align-items: center; }
+        .panel { border: 1px solid var(--dim); background: rgba(0, 255, 65, 0.02); padding: 15px; position: relative; overflow: hidden; }
+        .panel-title { color: var(--accent); font-size: 0.8rem; margin-bottom: 10px; border-bottom: 1px solid var(--dim); }
+        .status-on { color: var(--accent); animation: blink 1.5s infinite; }
+        @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+        .metric { font-size: 2rem; margin: 10px 0; }
+        .log-stream { font-size: 0.75rem; color: #888; height: 300px; overflow-y: hidden; }
+        .node-list { list-style: none; padding: 0; font-size: 0.9rem; }
+        .node-item { padding: 8px; border-left: 3px solid var(--accent); background: rgba(0, 51, 0, 0.2); margin-bottom: 5px; }
+        .alert-active { border-color: var(--danger); color: var(--danger); animation: pulse-red 2s infinite; }
+        @keyframes pulse-red { 0% { background: rgba(255, 65, 65, 0.1); } 50% { background: rgba(255, 65, 65, 0.3); } 100% { background: rgba(255, 65, 65, 0.1); } }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="header">
+            <div>HormigasAIS // COMANDO CENTRAL // v1.0.25</div>
+            <div class="status-on">● SISTEMA OPERATIVO</div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-title">MÉTRICAS DE LA COLONIA</div>
+            <div class="metric">NODOS: <span style="color:var(--accent)">1/50</span></div>
+            <div class="metric">LBH TTL: <span style="color:var(--accent)">ACTIVE</span></div>
+            <div class="metric">Soberanía: <span style="color:var(--accent)">100%</span></div>
+            <p style="font-size: 0.8rem; color: #555;">Sede: San Miguel, SV</p>
+        </div>
+
+        <div class="panel">
+            <div class="panel-title">AUDITORÍA LBH EN TIEMPO REAL (LBH_STREAM)</div>
+            <div class="log-stream" id="logStream">
+                [19:48:02] NODO_ALPHA: Validando contrato de gobernanza...<br>
+                [19:48:05] LBH_METABOLISM: Purgando datos EXPIRED (TTL Guard)...<br>
+                [19:48:10] CENTINELA: Monitoreo perimetral activo...<br>
+                [19:48:12] HITO_ETERNAL: Resguardo en bóveda local completado.<br>
+                [19:48:15] SYSTEM: Esperando instrucción del Fundador...<br>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-title">ESTADO DE NODOS PROYECTADOS (INVERSIÓN)</div>
+            <div class="node-list">
+                <div class="node-item">NODO_01 - San Miguel [ONLINE]</div>
+                <div class="node-item" style="opacity: 0.4; border-color: #333;">NODO_02 - San Salvador [PENDING_FUNDING]</div>
+                <div class="node-item" style="opacity: 0.4; border-color: #333;">NODO_03 - Santa Ana [PENDING_FUNDING]</div>
+                <div class="node-item alert-active">ALERTA_LOG: Intento de acceso externo bloqueado (Borde Soberano)</div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-title">CUMPLIMIENTO REGULATORIO AUTOMATIZADO</div>
+            <div style="padding: 10px;">
+                <div style="margin-bottom: 10px;">GDPR Compliant: <span style="color: var(--accent)">YES (Auto-purge)</span></div>
+                <div style="margin-bottom: 10px;">Ley 1581 (CO): <span style="color: var(--accent)">YES</span></div>
+                <div style="margin-bottom: 10px;">LGPD (BR): <span style="color: var(--accent)">YES</span></div>
+                <hr style="border: 0; border-top: 1px solid var(--dim);">
+                <div style="font-size: 0.8rem;">INFORME LEGAL GENERADO: <span class="highlight">compliance_report_20251230.pdf</span></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Simulación de flujo de logs para la demo
+        const logStream = document.getElementById('logStream');
+        const logs = [
+            "LBH_PULSE: Sincronizando feromonas digitales...",
+            "DB_SHARD: Distribuyendo carga en Borde...",
+            "SECURITY: Escaneando vulnerabilidades de nube...",
+            "STATUS: Soberanía de datos verificada al 100%.",
+            "ALERT: El Protocolo Centinela está vigilando."
+        ];
+        let i = 0;
+        setInterval(() => {
+            logStream.innerHTML += ;
+            i++;
+            if(logStream.innerHTML.length > 2000) logStream.innerHTML = "";
+        }, 3000);
+    </script>
+</body>
+</html>
