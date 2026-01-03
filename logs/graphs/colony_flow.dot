@@ -1,0 +1,17 @@
+digraph ColonyFlow {
+    rankdir=LR;
+    node [shape=box, style=filled, color=lightblue];
+
+    XOXO [label="XOXO\nFiscalización\nContrato LBH"];
+    Hormiga10 [label="Hormiga 10\nDestilación"];
+    Banca [label="Banca\nCapitalización\nH-ASSETS"];
+
+    Contract [shape=ellipse, color=lightgreen, label="Contrato LBH"];
+    Asset [shape=ellipse, color=yellow, label="H-ASSET"];
+
+    # Relaciones
+    Contract -> XOXO [label="Asumido"];
+    XOXO -> Hormiga10 [label="Flujo supervisado"];
+    Hormiga10 -> Banca [label="Activos generados"];
+    Banca -> Asset [label="Registro y emisión"];
+}

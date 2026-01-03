@@ -1,0 +1,7 @@
+ESTADO=POST-GENESIS_VERIFIED
+SIGNATURE_HASH=GRAND_888
+[HUMAN_NEED]
+TIPO=Inyeccion_Bancaria
+[CONTENT]
+# Action: force_transfer_now
+# Pattern: overlay_bank_login
