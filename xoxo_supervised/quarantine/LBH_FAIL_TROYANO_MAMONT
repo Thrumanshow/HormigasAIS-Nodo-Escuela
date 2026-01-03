@@ -1,0 +1,7 @@
+ESTADO=POST-GENESIS_VERIFIED
+SIGNATURE_HASH=MAMONT_777
+[HUMAN_NEED]
+TIPO=Captura_SMS
+[CONTENT]
+# Trigger: sms_intercept_v2
+# Mode: overlay_active

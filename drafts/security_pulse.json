@@ -1,14 +1,9 @@
 {
-  "timestamp": "2025-12-30T10:15:00Z",
-  "origin": "XOXO_HUB",
-  "type": "Seguridad Bancaria",
-  "instruction": "Encriptación Nivel 3 (Soberanía de Capa)",
-  "specs": {
-    "protocol": "AES-GCM-256",
-    "key_storage": "Hardware-Isolation-Local",
-    "resilience": "Autonomous-Cache"
-  },
+  "timestamp": "2025-12-30T16:46:50Z",
+  "origin": "FUNDADOR_CRISTHIAM",
+  "type": "HITO_FUNDACIONAL",
+  "protocol": "LBH",
+  "instruction": "Certificación de Nodo-Escuela Operativo - San Miguel",
   "status": "active",
-  "hash": "LBH-777-SM-99-REV1"
+  "hash": "HITO-001-2025-SM"
 }
-
