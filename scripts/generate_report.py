@@ -15,25 +15,25 @@ def crear_reporte_markdown():
         logs = json.load(f)
 
     md_content = f"""# 🐜 HormigasAIS - Reporte de Inteligencia Soberana
-**Generado:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} (CST - Local SV)
-**Sincronización Global:** UTC/Zulu Standard
-**Nodo:** Nodo-Escuela (San Miguel, SV)
+**Fecha de Generación:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} (CST)
+**Nodo de Origen:** Nodo-Escuela (San Miguel, SV)
 **Protocolo:** LBH (Lenguaje Binario HormigasAIS)
 
-> **Nota de Auditoría:** Las marcas de tiempo de los eventos se registran en UTC para trazabilidad internacional, mientras que la emisión del reporte refleja la hora local del nodo.
-
 ---
+## 🛡️ Resumen Ejecutivo
+Este documento certifica la actividad de inteligencia distribuida y la salud de la memoria del nodo.
 """
     for entry in logs:
-        # Usamos .get() para evitar errores si los logs viejos no tienen las nuevas llaves
-        t_local = entry.get('timestamp_local', 'N/A')
-        md_content += f"\n### Evento: {entry.get('input_hash', 'N/A')}\n- **Local:** `{t_local}` \n- **IA:** `{entry.get('source', 'N/A')}`\n\n#### 🔍 Análisis\n{entry.get('analysis', 'Sin análisis')}\n---\n"
-
-    md_content += "\n**Firma Digital:** `HormigasAIS-SBN-VALIDATED`"
+        # Mostramos el estado (ACTIVE, EXPIRED o ETERNAL)
+        emoji = "💎" if entry.get("state") == "ETERNAL" else "🟢"
+        md_content += f"\n### {emoji} Evento: {entry.get('input_hash')}\n"
+        md_content += f"- **Tipo:** `{entry.get('type')}`\n"
+        md_content += f"- **Análisis:** {entry.get('analysis')}\n\n---"
 
     with open(REPORT_FILE, "w", encoding="utf-8") as f:
         f.write(md_content)
-    print(f"✅ Reporte profesional generado en: {REPORT_FILE}")
+    print(f"✅ Reporte generado: {REPORT_FILE}")
 
 if __name__ == "__main__":
     crear_reporte_markdown()
+

@@ -1,0 +1,39 @@
+============================================
+⚖️  DIAGNÓSTICO LBH – NODO-ESCUELA
+============================================
+
+🕒 TIEMPO DEL SISTEMA
+Local : Thu Jan  1 06:14:14 CST 2026
+UTC   : Thu Jan  1 12:14:15 UTC 2026
+
+🌍 ZONA HORARIA CONFIGURADA
+
+🔌 ESTADO DEL PUERTO 8081
+⚠️ Puerto 8081 no está escuchando
+
+🔥 TEST DE DETERIORO (curl x 20)
+[2026-01-01T12:14:15Z] Intento 1 → ✅ OK (200)
+[2026-01-01T12:14:15Z] Intento 2 → ✅ OK (200)
+[2026-01-01T12:14:16Z] Intento 3 → ✅ OK (200)
+[2026-01-01T12:14:16Z] Intento 4 → ✅ OK (200)
+[2026-01-01T12:14:16Z] Intento 5 → ✅ OK (200)
+[2026-01-01T12:14:17Z] Intento 6 → ✅ OK (200)
+[2026-01-01T12:14:17Z] Intento 7 → ✅ OK (200)
+[2026-01-01T12:14:17Z] Intento 8 → ✅ OK (200)
+[2026-01-01T12:14:17Z] Intento 9 → ✅ OK (200)
+[2026-01-01T12:14:18Z] Intento 10 → ✅ OK (200)
+[2026-01-01T12:14:18Z] Intento 11 → ✅ OK (200)
+[2026-01-01T12:14:18Z] Intento 12 → ✅ OK (200)
+[2026-01-01T12:14:19Z] Intento 13 → ✅ OK (200)
+[2026-01-01T12:14:19Z] Intento 14 → ✅ OK (200)
+[2026-01-01T12:14:19Z] Intento 15 → ✅ OK (200)
+[2026-01-01T12:14:20Z] Intento 16 → ✅ OK (200)
+[2026-01-01T12:14:20Z] Intento 17 → ✅ OK (200)
+[2026-01-01T12:14:20Z] Intento 18 → ✅ OK (200)
+[2026-01-01T12:14:21Z] Intento 19 → ✅ OK (200)
+[2026-01-01T12:14:21Z] Intento 20 → ✅ OK (200)
+
+🧠 CONCLUSIÓN DEL SISTEMA
+✅ Nodo estable bajo carga.
+
+============================================
