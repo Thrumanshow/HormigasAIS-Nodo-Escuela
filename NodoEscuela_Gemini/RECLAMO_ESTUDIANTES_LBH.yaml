@@ -1,0 +1,41 @@
+# RECLAMO_ESTUDIANTES_LBH — Nodo-Escuela
+
+emisor:
+  entidad: hormigas_estudiantes
+  rol: aprendices
+  accion: reclamo_aprendizaje
+
+supervision:
+  xoxo: fiscalizador
+  hormiga_10_soberana: validacion_comprension
+  hormiga_stanford: traduccion_lbh
+
+motivo_reclamo:
+  descripcion: >
+    Reclamamos el acceso al material Gemini/Escuela
+    con el único propósito de aprendizaje interno.
+    El conocimiento será interpretado bajo el reglamento LBH,
+    sin ejecución automática ni uso externo.
+
+alcance:
+  tipo: aprendizaje
+  ejecucion: prohibida
+  resultados: no_requeridos
+  decision: humana
+
+conocimiento_reclamado:
+  nodo: HormigasAIS-Nodo-Escuela
+  ruta: NodoEscuela_Gemini/
+  uso: interno_colonia
+
+retorno_biologico:
+  destino: hormiga_10_soberana
+  tipo: confirmacion_comprension
+  estado: entregado
+
+principios:
+  - "La Hormiga 10 valida comprensión, no resultados."
+  - "Stanford traduce, pero no decide."
+  - "El conocimiento solo vive dentro de la colonia."
+
+timestamp: 2026-01-03T20:30:00Z
