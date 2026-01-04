@@ -1,0 +1,10 @@
+{
+  "protocol": "Lenguaje-Binario-HormigasAIS",
+  "version": "2025.1.0",
+  "founder": "Cristhiam Leonardo Hernández Quiñonez",
+  "principles": ["Soberanía", "Resiliencia", "Eficiencia"],
+  "disciplines": {
+    "banca": "Centinela_ADN_Inmune",
+    "solar": "Registro_Contrato_Termico"
+  }
+}

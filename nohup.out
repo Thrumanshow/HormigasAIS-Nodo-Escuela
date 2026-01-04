@@ -1,0 +1,211 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 1310, in <module>
+    test(
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 1257, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/socketserver.py", line 457, in __init__
+    self.server_bind()
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 1304, in server_bind
+    return super().server_bind()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/data/data/com.termux/files/usr/lib/python3.12/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 1310, in <module>
+    test(
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 1257, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/socketserver.py", line 457, in __init__
+    self.server_bind()
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 1304, in server_bind
+    return super().server_bind()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/data/data/com.termux/files/usr/lib/python3.12/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 1310, in <module>
+    test(
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 1257, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/socketserver.py", line 457, in __init__
+    self.server_bind()
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 1304, in server_bind
+    return super().server_bind()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/data/data/com.termux/files/usr/lib/python3.12/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+::ffff:192.168.1.3 - - [01/Jan/2026 04:22:08] "GET /presentation.html HTTP/1.1" 304 -
+::ffff:192.168.1.3 - - [01/Jan/2026 04:22:09] code 404, message File not found
+::ffff:192.168.1.3 - - [01/Jan/2026 04:22:09] "GET /favicon.ico HTTP/1.1" 404 -
+::ffff:192.168.1.3 - - [01/Jan/2026 04:48:51] code 404, message File not found
+::ffff:192.168.1.3 - - [01/Jan/2026 04:48:51] "GET /favicon.ico HTTP/1.1" 404 -
+::ffff:192.168.1.3 - - [01/Jan/2026 05:05:46] code 404, message File not found
+::ffff:192.168.1.3 - - [01/Jan/2026 05:05:46] "GET /pres HTTP/1.1" 404 -
+::ffff:192.168.1.3 - - [01/Jan/2026 05:05:47] code 404, message File not found
+::ffff:192.168.1.3 - - [01/Jan/2026 05:05:47] "GET /favicon.ico HTTP/1.1" 404 -
+::ffff:192.168.1.3 - - [01/Jan/2026 05:45:53] "GET /presentation.html HTTP/1.1" 304 -
+::ffff:192.168.1.3 - - [01/Jan/2026 05:46:42] code 400, message Bad request version ('À')
+::ffff:192.168.1.3 - - [01/Jan/2026 05:46:42] "\x16\x03\x01\x00÷\x01\x00\x00ó\x03\x03Ý¢ºÝï¿ââ·\x90r$x\x9bY;IE\x09p¬=[ºfBÓÒ½y\x109 OiÞÀ\x90xk²k\x8cé\x817sn\x0f5_|§*á°7\x09;\x04\x11þi\x83Ø\x00"\x13\x01\x13\x02\x13\x03À+À,Ì©À/À0Ì¨À\x09À" 400 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:49] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:49] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:49] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:50] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:50] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:50] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:50] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:51] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:51] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:51] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:52] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:52] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:52] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:52] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:53] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:53] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:53] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:54] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:54] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:02:54] "GET /presentation.html HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 1310, in <module>
+    test(
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 1257, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/socketserver.py", line 457, in __init__
+    self.server_bind()
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 1304, in server_bind
+    return super().server_bind()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/data/data/com.termux/files/usr/lib/python3.12/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:14] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:14] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:15] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:15] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:15] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:16] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:16] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:16] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:16] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:17] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:17] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:17] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:18] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:18] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:18] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:19] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:19] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:19] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:20] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:09:20] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:192.168.1.3 - - [01/Jan/2026 06:09:40] code 404, message File not found
+::ffff:192.168.1.3 - - [01/Jan/2026 06:09:40] "GET /favicon.ico HTTP/1.1" 404 -
+::ffff:192.168.1.3 - - [01/Jan/2026 06:12:50] code 404, message File not found
+::ffff:192.168.1.3 - - [01/Jan/2026 06:12:50] "GET /favicon.ico HTTP/1.1" 404 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:15] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:15] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:16] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:16] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:16] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:16] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:17] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:17] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:17] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:18] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:18] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:18] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:19] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:19] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:19] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:20] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:20] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:20] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:21] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:14:21] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:41] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:41] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:42] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:42] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:42] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:43] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:43] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:43] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:44] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:44] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:44] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:45] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:45] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:45] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:46] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:46] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:46] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:47] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:47] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:18:47] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:24:33] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:24:33] "GET /status_herencia.json?t=1767270273965 HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:24:33] "GET /status_herencia.json?t=1767270273989 HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:24:34] "GET /status_herencia.json?t=1767270273990 HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:24:34] code 404, message File not found
+::ffff:127.0.0.1 - - [01/Jan/2026 06:24:34] "GET /favicon.ico HTTP/1.1" 404 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:24:35] "GET /status_herencia.json HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:24:35] "GET /status_herencia.json?t=1767270275965 HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:24:36] "GET /status_herencia.json?t=1767270275989 HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:24:36] "GET /status_herencia.json?t=1767270275990 HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:16] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:16] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:16] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:17] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:17] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:17] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:17] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:18] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:18] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:18] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:19] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:19] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:19] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:20] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:20] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:20] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:21] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:21] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:21] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jan/2026 06:56:22] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:192.168.1.3 - - [01/Jan/2026 07:11:01] code 404, message File not found
+::ffff:192.168.1.3 - - [01/Jan/2026 07:11:01] "GET /favicon.ico HTTP/1.1" 404 -
+::ffff:192.168.1.3 - - [01/Jan/2026 07:57:46] "GET /presentation.html HTTP/1.1" 200 -
+::ffff:192.168.1.3 - - [01/Jan/2026 07:57:47] "GET /status_herencia.json?t=1767275867398 HTTP/1.1" 200 -
+::ffff:192.168.1.3 - - [01/Jan/2026 07:57:47] "GET /status_herencia.json?t=1767275867447 HTTP/1.1" 200 -
+::ffff:192.168.1.3 - - [01/Jan/2026 07:57:47] "GET /status_herencia.json?t=1767275867450 HTTP/1.1" 200 -
+::ffff:192.168.1.3 - - [01/Jan/2026 07:57:49] "GET /status_herencia.json HTTP/1.1" 200 -
+::ffff:192.168.1.3 - - [01/Jan/2026 07:57:49] "GET /status_herencia.json?t=1767275869393 HTTP/1.1" 200 -
+::ffff:192.168.1.3 - - [01/Jan/2026 07:57:49] "GET /status_herencia.json?t=1767275869447 HTTP/1.1" 200 -
+::ffff:192.168.1.3 - - [01/Jan/2026 07:57:49] "GET /status_herencia.json?t=1767275869450 HTTP/1.1" 200 -
+::ffff:192.168.1.3 - - [01/Jan/2026 07:57:51] "GET /status_herencia.json?t=1767275871393 HTTP/1.1" 200 -
+::ffff:192.168.1.3 - - [01/Jan/2026 07:57:51] "GET /status_herencia.json?t=1767275871447 HTTP/1.1" 200 -
+::ffff:192.168.1.3 - - [01/Jan/2026 07:57:51] "GET /status_herencia.json?t=1767275871454 HTTP/1.1" 200 -

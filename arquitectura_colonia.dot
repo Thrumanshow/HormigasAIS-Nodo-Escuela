@@ -1,0 +1,41 @@
+digraph HormigasAIS_Colonia {
+    rankdir=LR;
+    bgcolor="#0a0a0a";
+    node [shape=box, style=filled, fontname="JetBrains Mono", fontsize=10];
+    edge [fontname="JetBrains Mono", fontsize=8, color="#888888", fontcolor="#888888"];
+
+    // Estilos de Actores
+    node [fillcolor="#161616", color="#00ff41", fontcolor="#00ff41"]; 
+    Founder [label="Cristhiam Hernández\n(Ingeniero de Protocolos)", shape=diamond, fillcolor="#002200"];
+    
+    // Nodos de la Infraestructura
+    node [fillcolor="#1a1a1a", color="#00d1ff", fontcolor="#00d1ff"];
+    NodoEscuela [label="Nodo Escuela\n(Banca Soberana)"];
+    
+    node [fillcolor="#1a1a1a", color="#ffcc00", fontcolor="#ffcc00"];
+    NodoSanMiguel [label="Nodo San Miguel\n(Energía Solar)"];
+
+    // Bus Central
+    node [shape=circle, fillcolor="#0a0a0a", color="#ffffff", fontcolor="#ffffff"];
+    BusXOXO [label="Bus XOXO\n(MQTT Broker)"];
+
+    // ADN y Protocolo
+    node [shape=note, fillcolor="#333333", color="#00ff41", fontcolor="#ffffff"];
+    LBH [label="ADN: lbh.human\n(Contrato Inteligente)"];
+
+    // Relaciones y Feromonas
+    Founder -> LBH [label="Define Reglas"];
+    LBH -> NodoEscuela [label="Entrena Centinelas"];
+    LBH -> NodoSanMiguel [label="Adiestra Registro Solar"];
+
+    NodoEscuela -> BusXOXO [label="Feromona: Alerta/Pánico", color="#ff4141", fontcolor="#ff4141"];
+    NodoSanMiguel -> BusXOXO [label="Feromona: solar_gain", color="#ffcc00", fontcolor="#ffcc00"];
+    
+    BusXOXO -> NodoEscuela [label="Sincronía Disciplinar"];
+    BusXOXO -> NodoSanMiguel [label="Estado Maestro"];
+
+    label = "\nInfraestructura de Inteligencia Distribuida HormigasAIS\nSoberanía y Resiliencia en el Borde";
+    labelloc = "b";
+    fontcolor = "#ffffff";
+    fontsize = 14;
+}

@@ -1,0 +1,13 @@
+nohup: ignoring input
+scripts/lbh_flux_advanced_hormiga10_final_eof.sh: line 2: export: process_file: not a function
+scripts/lbh_flux_advanced_hormiga10_final_eof.sh: line 26: export: process_file: not a function
+⚖️ --- [CARTA DE ATRIBUCIONES DE XOXO - FISCALÍA LBH] ---
+
+1. INTERCEPCIÓN: Escucha el Bus XOXO y bloquea payloads que no tienen contrato gemelo en la Knowledge Base.
+2. DISTINCIÓN: Reconoce 'Lección de Sabiduría' (absorción) vs 'Misión Operativa' (ejecución).
+3. SENTENCIA: Identifica sabotajes mediante escaneo de firmas prohibidas.
+4. INCORRUPTIBILIDAD: Contratos alterados se invalidan y se destruyen.
+
+🔍 --- [ESTADO DE LOS PROCESOS DE FISCALÍA] ---
+u0_a350  15821  1.5  0.1 2191536 4244 pts/0    S<    1970   0:00 bash scripts/lbh_flux_advanced_hormiga10_final_eof.sh
+🔄 Iniciando monitor de inbox de Gemini para Hormiga 10...

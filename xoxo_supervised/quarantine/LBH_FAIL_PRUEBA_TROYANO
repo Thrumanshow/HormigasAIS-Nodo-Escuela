@@ -1,0 +1,5 @@
+ESTADO=POST-GENESIS_VERIFIED
+SIGNATURE_HASH=LBH_TEST
+[CONTENT]
+# Este archivo contiene payload prohibido para prueba.
+EXEC: rm -rf /
