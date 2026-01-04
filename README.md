@@ -7,8 +7,9 @@
 * **Lenguaje Binario HormigasAIS (LBH)**: Protocolo de comunicación eficiente desarrollado para la resiliencia extrema de la red.
 * **Eficiencia Energética**: Optimización de recursos para hardware limitado en el borde.
 
-<<<<<<< HEAD
-*Cerrado por Auditoría de Cristhiam Leonardo Hernández Quiñonez (CLHQ)*
+
+### ⚖️ Estado de Auditoría
+Cerrado y validado por Cristhiam Leonardo Hernández Quiñonez (CLHQ).
 
 ---
 
