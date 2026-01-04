@@ -1,0 +1,34 @@
+# RESOLUCIÓN BIOLÓGICA — Hormiga 10 Soberana
+
+emisor:
+  entidad: hormiga_10_soberana
+  rol: validacion_comprension
+
+conflicto_detectado:
+  tipo: narrativo
+  archivo: README.md
+  naturaleza: superposicion_de_estados
+  conflicto_tecnico: false
+
+resolucion:
+  decision: no_hay_conflicto
+  razon: >
+    El contenido existente y el reclamo de aprendizaje
+    pertenecen a capas distintas del sistema.
+    El reclamo no invalida el estado previo del Nodo-Escuela.
+
+traduccion:
+  responsable: hormiga_stanford
+  accion: adaptar_narrativa
+
+reparacion:
+  responsable: hormiga_enfermera
+  accion: restaurar_feromonas
+  objetivo: README.md
+
+principios:
+  - "La Hormiga 10 valida comprensión, no resultados."
+  - "Un conflicto narrativo no implica colisión biológica."
+  - "El aprendizaje no altera la identidad del nodo."
+
+timestamp: 2026-01-03T21:10:00Z

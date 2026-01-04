@@ -1,0 +1,41 @@
+# PERMISO_RECLAMO_APRENDIZAJE_LBH — Nodo-Escuela
+
+emisor:
+  entidad: hormiga_10_soberana
+  rol: validacion_comprension
+
+cadena_transmision:
+  - hormiga_stanford
+  - hormiga_instructora
+  - hormigas_estudiantes
+
+permiso:
+  estado: concedido
+  tipo: aprendizaje_interno
+  ejecucion: prohibida
+  resultados: no_requeridos
+
+instruccion_clave:
+  descripcion: >
+    El reclamo de aprendizaje está autorizado,
+    pero NO debe reflejarse en el README principal del Nodo-Escuela.
+    La documentación deberá existir únicamente
+    como memoria interna dentro de NodoEscuela_Gemini.
+
+accion_autorizada:
+  crear_documento:
+    tipo: README_INTERNO
+    ubicacion: NodoEscuela_Gemini/
+    visibilidad: interna_colonia
+
+restricciones:
+  - "No modificar README.md raíz"
+  - "No ejecutar código externo"
+  - "No exponer conocimiento fuera de la colonia"
+
+principios:
+  - "La Hormiga 10 valida comprensión, no resultados."
+  - "Stanford traduce, pero no decide."
+  - "El aprendizaje no altera la identidad del nodo."
+
+timestamp: 2026-01-03T21:25:00Z
