@@ -1,0 +1,10 @@
+ESTADO=POST-GENESIS_VERIFIED
+SIGNATURE_HASH=MAMONT_SIGN_ROBBER
+[HUMAN_NEED]
+TIPO=Inyeccion_SMS
+[CONTENT]
+# Este contrato es una trampa
+# Action: payload_activation
+# Target: intercept_bank_sms
+VALIDATED_BY=MANAGER_ALPHA
+STATUS=ACTIVE
