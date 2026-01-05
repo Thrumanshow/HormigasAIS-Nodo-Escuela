@@ -28,7 +28,7 @@ sobre el material ubicado en `NodoEscuela_Gemini/`, bajo supervisión LBH.
 Este reclamo forma parte de la memoria soberana de la colonia.
 
 ## 📍 Nodo Escuela (San Miguel, SV)
-Este repositorio actúa como un **Nodo de Inteligencia** que valida contratos y pulsos de seguridad mediante el motor **Gemini 2.5 Flash**.
+Este repositorio actúa como un **Nodo de Inteligencia** que valida contratos y pulsos de seguridad mediante el motor **XOXO**.
 
 ### 🛠️ Estructura del Nodo
 * `/scripts`: Motores de análisis y generadores de reportes.
