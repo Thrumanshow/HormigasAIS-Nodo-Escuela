@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # ⚖️ LBH VALIDATE LEGACY → POST-GENESIS
 # Valida que la cadena histórica post-LEGACY se inicie correctamente
 # usando LBH_CHAIN_LEGACY_CUTOFF.log como corte de auditorías previas

@@ -1,4 +1,6 @@
 import time
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 import os
 
 def emitir_pulso_binario_puro(agente="HORMIGA_07_CORE"):

@@ -1,0 +1,15 @@
+[]
+{"timestamp": 1767606330, "type": "memory_regulation", "status": "success", "origin": "Hormiga_10"}
+{"timestamp": 1767606491, "type": "memory_regulation", "status": "success"}
+{"timestamp": 1767608181, "type": "sequence_regulation", "sequence": 0, "status": "success"}
+{"timestamp": 1767608671, "type": "sequence_regulation", "sequence": 1, "status": "success"}
+{"timestamp": 1767608671, "type": "lbh_validation", "origin": "Stanford", "status": "verified"}
+{"timestamp": 1767609230, "type": "triple_validation", "status": "verified_by_all_agents", "lbh_status": "sovereign"}
+{"timestamp": 1767610344, "type": "nurse_healing", "status": "fully_recovered", "target": "all_agents"}
+{"timestamp": 1767610646, "type": "nurse_healing", "status": "fully_recovered", "target": "all_agents"}
+{"timestamp": 1767612134, "type": "pre_fire_test_healing", "status": "optimal"}
+{"timestamp": 1767612354, "type": "pre_fire_test_healing", "status": "optimal"}
+{"timestamp": 1767613231, "type": "pre_fire_test_healing", "status": "optimal"}
+{"timestamp": 1767613947, "type": "learning_event", "origin": "CLHQ", "agent": "Stanford", "status": "evolved"}
+{"timestamp": 1767615825, "type": "pre_fire_test_healing", "status": "optimal"}
+{"timestamp": 1767620316, "type": "checkpoint_master", "status": "sovereign_secured", "seq_hash": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3", "audit_hash": "b36ec2ed928e39df9471d5f0a3fb06fb20c3b5152fc4ca703550289044eba897"}

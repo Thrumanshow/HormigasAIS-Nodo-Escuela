@@ -1,4 +1,6 @@
 #!/bin/bash
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # colony_flow_graph.sh
 # Genera un gráfico de la arquitectura de la colonia (XOXO, Hormiga 10, Banca)
 

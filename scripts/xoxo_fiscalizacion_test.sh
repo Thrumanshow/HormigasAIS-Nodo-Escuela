@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # 🦎 XOXO FISCALIZACIÓN TEST
 # Monitoreo activo de inbox para pruebas de contratos maliciosos (Camaleón / Caballo de Troya)
 # Flujo en primer plano para observación inmediata

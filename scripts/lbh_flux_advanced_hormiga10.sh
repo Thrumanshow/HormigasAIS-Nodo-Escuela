@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # 🐜 LBH FLUX ADVANCED: Gemini → XOXO → Manager Alpha → Hormiga 10
 # Flujo completamente automatizado para absorción inmediata
 # Ejecución en segundo plano con nohup incorporado

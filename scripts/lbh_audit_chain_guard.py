@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # ⚖️ LBH AUDIT CHAIN GUARD
 # Valida integridad forense de auditorías
 # Modo: READ-ONLY | Dependency-Free | Deterministic

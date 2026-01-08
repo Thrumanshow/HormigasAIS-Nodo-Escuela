@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # 🦎 XOXO PORTERO – Soberanía Absoluta LBH
 # Solo lo que XOXO valida llega a la Hormiga 10.
 
