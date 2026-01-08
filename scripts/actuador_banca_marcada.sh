@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # 🐜 ACTUADOR CON FISCALÍA SOBERANA XOXO V3
 T_ZONE="hormigas/banca_delegada/transfer_zone"
 KNOWLEDGE="hormigas/instructora/knowledge_base"

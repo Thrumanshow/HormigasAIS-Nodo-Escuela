@@ -1,4 +1,6 @@
 #!/bin/bash
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # limpiadora_soberana.sh - Gestión de Memoria para Vuelo de Agentes
 LOGS_TO_CLEAN=("logs/mosquito_flight.log" "logs/hormiga10_flux.log")
 MAX_LINES=500

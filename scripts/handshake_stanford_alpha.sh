@@ -1,4 +1,6 @@
 #!/bin/bash
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # 🐜 HormigasAIS - Protocolo de Aceptación de Tareas (Handshake)
 # Maestra Stanford <-> Hormiga Alpha_01
 # Autor: Cristhiam Leonardo Hernández Quiñonez (CLHQ)

@@ -1,4 +1,6 @@
 #!/bin/bash
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # 🐜 HormigasAIS - Generador de Oscilación de Pulso LBH
 # Basado en Commit 3904022 (visual_demo_stream.csv)
 # Autor: CLHQ

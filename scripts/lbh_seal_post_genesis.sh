@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # ⚖️ LBH SEAL POST-GENESIS
 # Genera el primer evento encadenado histórico de auditoría post-GENESIS
 # Calcula hash determinístico y lo inserta en SIGNATURE_HASH

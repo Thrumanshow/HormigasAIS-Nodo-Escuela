@@ -1,4 +1,6 @@
 #!/bin/bash
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # 🐜 HormigasAIS - Ritual de Actualización Visual (REPARADO)
 # Motivo: Corrección de Disonancia de Interfaz (FECHA_HORA)
 

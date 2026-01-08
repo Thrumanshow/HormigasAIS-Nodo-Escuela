@@ -1,4 +1,6 @@
 # Agente: Estudiante 10 (Delegada)
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # Acción: Publicación de Sello de Auditoría en el Ecosistema
 
 import os

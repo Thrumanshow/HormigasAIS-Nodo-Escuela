@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # 🦎 XOXO FISCALIZACIÓN + THREAT INTEL
 # Defensa activa contra Troyanos Bancarios (Mamont, Grandoreiro, Dridex)
 # Ejecución en PRIMER PLANO (observación humana directa)

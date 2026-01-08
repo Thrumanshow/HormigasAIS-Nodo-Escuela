@@ -1,4 +1,6 @@
 #!/bin/bash
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # 🐜 HormigasAIS - Purga de Lienzo Visual
 # Este script limpia el buffer de visualización sin tocar el historial de auditoría.
 

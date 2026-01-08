@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # 🐜 LBH DEFENSE V3: ZERO-TRUST PROTOCOL
 INBOX="xoxo_supervised/cleared"
 H_KNOWLEDGE="hormigas/instructora/knowledge_base"
