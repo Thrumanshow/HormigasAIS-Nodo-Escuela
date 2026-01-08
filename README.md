@@ -46,3 +46,6 @@ No ejecuta código productivo.
 
 ## Estado: Operativo
 
+
+---
+**Temporal governance defined by governance-temporal-v1.0**
