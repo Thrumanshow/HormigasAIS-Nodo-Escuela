@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # =========================================================
 # HORMIGA 10 SOBERANA – CORRECCIÓN DE HISTORIA TEMPORAL
 # Nodo-Escuela (Banco LBH)

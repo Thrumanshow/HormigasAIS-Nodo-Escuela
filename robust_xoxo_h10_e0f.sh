@@ -1,4 +1,6 @@
 #!/bin/bash
+# © 2025-2026 HormigasAIS - Proyectado por Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+# Propiedad Intelectual Protegida bajo el Protocolo de Soberanía LBH
 # robust_xoxo_h10_e0f.sh - V2: Fiscal, Destilador y Banca
 
 mkdir -p logs/xoxo logs/hormiga10 logs/banca archive/contracts_rejected
