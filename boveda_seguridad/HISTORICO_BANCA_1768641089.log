@@ -1,0 +1,51 @@
+nohup: ignoring input
+🔄 Monitor LBH Activo. Nodo-Escuela escuchando en xoxo_supervised/inbox...
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: NEED_ANOMALIA_BANCA_1767158815
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: BANK_GENESIS_ACTIVOS_1767159940
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: BANK_GENESIS_ACTIVOS_1767160105
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: STRESS_TEST_1767160588_1
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: STRESS_TEST_1767160588_10
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: STRESS_TEST_1767160588_2
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: STRESS_TEST_1767160588_3
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: STRESS_TEST_1767160588_4
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: STRESS_TEST_1767160588_5
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: STRESS_TEST_1767160588_6
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+rm: cannot remove 'xoxo_supervised/inbox/STRESS_TEST_1767160588_7.ref.lbh': No such file or directory
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: STRESS_TEST_1767160588_7
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+rm: cannot remove 'xoxo_supervised/inbox/STRESS_TEST_1767160588_8.ref.lbh': No such file or directory
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: STRESS_TEST_1767160588_8
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+rm: cannot remove 'xoxo_supervised/inbox/STRESS_TEST_1767160588_9.ref.lbh': No such file or directory
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: STRESS_TEST_1767160588_9
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: INTRUSO_BANCARIO
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: LECCION_003_FILTRO_Y_ABSORCION_1767161562
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: CABALLO_DE_TROYA_1767161768
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: LECCION_004_CONTRAINTELIGENCIA_1767162331
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: CAMALEON_BANCARIO_1767162486
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: GRAN_CAMALEON_V2_1767163032
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: GRAN_CAMALEON_V2_1767163492
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: PRUEBA_PEDAGOGICA_001
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: AMENAZA_MAMONT_01
+./scripts/lbh_flux_banca_final.sh: line 25: xxd: command not found
+✅ [MANAGER_ALPHA] Instrucción fiscalizada y delegada a Banca: ATAQUE_LEDGER_WIPE
