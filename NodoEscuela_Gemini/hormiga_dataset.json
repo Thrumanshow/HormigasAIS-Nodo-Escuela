@@ -1,50 +1,24 @@
-[
-  {
-    "timestamp": "2025-12-29T22:27:06.270422",
-    "pulso_hash": "lbh_hash_provisional_2025",
-    "pulso": {
-      "origin": "xoxo-adapter",
-      "instruction": "Validar integridad de red bancaria en San Miguel",
-      "type": "security_check",
-      "execution": "active",
-      "hash": "lbh_hash_provisional_2025"
+{
+  "training_session": "2026-01-17-WAR-GAME",
+  "instructor": "Cristhiam Hernandez",
+  "threat_profiles": [
+    {
+      "name": "Lalo-Hijacker",
+      "type": "Identity_Theft_and_Plagiarism",
+      "tactic": "Uso de capturas de pantalla traducidas y cambio de licencia GPL para absorber propiedad intelectual.",
+      "origin": "GitLab-Community-Groups"
     },
-    "categoria": "General"
-  },
-  {
-    "timestamp": "2025-12-29T22:34:46.078476",
-    "pulso_hash": "b1",
-    "pulso": {
-      "origin": "XOXO_HUB",
-      "instruction": "Monitoreo de transacciones sospechosas en cajeros Centro",
-      "hash": "b1",
-      "type": "security",
-      "execution": "active"
+    {
+      "name": "Database-Ghost-Exfiltration",
+      "type": "SQLi/Data_Mining",
+      "tactic": "Extracción silenciosa de bases de datos mediante consultas de metadatos (CIA/FBI field manual style).",
+      "severity": "Critical"
     },
-    "categoria": "General"
-  },
-  {
-    "timestamp": "2025-12-29T22:34:46.078700",
-    "pulso_hash": "b2",
-    "pulso": {
-      "origin": "XOXO_HUB",
-      "instruction": "Auditor\u00eda de acceso a b\u00f3veda digital - Protocolo LBH",
-      "hash": "b2",
-      "type": "security",
-      "execution": "active"
-    },
-    "categoria": "General"
-  },
-  {
-    "timestamp": "2025-12-29T22:34:46.078784",
-    "pulso_hash": "b3",
-    "pulso": {
-      "origin": "XOXO_HUB",
-      "instruction": "Encriptaci\u00f3n de datos financieros Nivel 3",
-      "hash": "b3",
-      "type": "security",
-      "execution": "active"
-    },
-    "categoria": "Seguridad Bancaria"
-  }
-]
+    {
+      "name": "Supply-Chain-Poisoning",
+      "type": "Code_Injection",
+      "tactic": "Modificación de archivos .gradle o .idea para crear puertas traseras (KGB/GRU style).",
+      "severity": "Extreme"
+    }
+  ]
+}
