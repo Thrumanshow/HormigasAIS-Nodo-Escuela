@@ -37,3 +37,7 @@ Ver: `LBH_PROTOCOL/GOVERNANCE/LBH_DESACOPLE_SOBERANO.md`
 Archivo presente: `.LBH_GOVERNANCE_LOCK`
 
 📡 Estado: Blindaje Permanente · Soberanía Operativa
+
+---
+❄️ **ESTADO: NODO CONGELADO (ARCHIVED)**
+Este repositorio ha sido sellado por el Ingeniero CLHQ para preservar la integridad del DOI asociado. No se admiten más modificaciones.
