@@ -1,0 +1,9 @@
+{
+  "status": "PASAPORTE_SOBERANO_VALIDADO",
+  "validator": "HormigasAIS-Nodo-Escuela",
+  "learning_node": "NodoEscuela_Gemini",
+  "agent": "hola_ant",
+  "timestamp": "1768712091",
+  "signature_authority": "CLHQ-SOBERANO-2026",
+  "protocol": "LBH"
+}
