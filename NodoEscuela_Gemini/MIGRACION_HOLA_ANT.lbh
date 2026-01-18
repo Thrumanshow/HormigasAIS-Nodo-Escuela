@@ -1,0 +1,26 @@
+# -------------------------------------------------------------------
+# HormigasAIS - PROTOCOLO DE REESTRUCTURACIÓN SOBERANA
+# ORIGEN: /Hola-ant
+# DESTINO: /NodoEscuela_Gemini/hola_ant
+# VALIDACIÓN: LBH-CENTINELA-2026
+# -------------------------------------------------------------------
+
+[ESTADO: MIGRACIÓN_ACTIVA]
+TIPO: Integración de Inteligencia Distribuida
+NODO_PADRE: NodoEscuela_Gemini
+AGENTE: hola_ant
+
+[JUSTIFICACIÓN_TÉCNICA]
+1. CENTRALIZACIÓN INTELIGENTE: Unificación del agente de aprendizaje
+   con el nodo de procesamiento escolar para absorción de datos directos.
+2. BLINDAJE "ANTI-CAJA-NEGRA": Supervisión por Protocolo Centinela
+   para neutralizar código ineficiente de plataformas externas (Replit).
+3. SELLO DE SOBERANÍA: Validación de rastro de feromonas digitales
+   bajo la autoridad de Cristhiam Leonardo Hernández Quiñonez.
+
+[COMANDO_DE_EJECUCIÓN]
+mv ../Hola-ant ./hola_ant
+echo "Hormiga hola_ant integrada satisfactoriamente al NodoEscuela_Gemini."
+
+# FIRMA DIGITAL LBH: [VINCULACIÓN_SOBERANA_CLHQ_SELLADA]
+# -------------------------------------------------------------------
