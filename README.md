@@ -41,3 +41,7 @@ Archivo presente: `.LBH_GOVERNANCE_LOCK`
 ---
 ❄️ **ESTADO: NODO CONGELADO (ARCHIVED)**
 Este repositorio ha sido sellado por el Ingeniero CLHQ para preservar la integridad del DOI asociado. No se admiten más modificaciones.
+
+---
+❄️ **ESTADO: NODO CONGELADO (ARCHIVED)**
+Este repositorio ha sido sellado por el Ingeniero CLHQ para preservar la integridad del DOI asociado (https://doi.org/10.5281/zenodo.17070288). La versión actual es la definitiva para fines de auditoría científica y propiedad intelectual.
