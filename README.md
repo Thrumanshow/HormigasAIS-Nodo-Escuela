@@ -70,3 +70,11 @@ Arquitecto del Protocolo LBH — HormigasAIS
 📜 Declaración Final
 Cuando un nodo aprende a callar, el sistema completo empieza a pensar.
 🐜 HormigasAIS — Inteligencia distribuida, humana y soberana.
+
+---
+## 🏛️ Governance & IP Notice
+Este repositorio es una infraestructura de Inteligencia Distribuida protegida por soberanía de datos.
+
+* **Gobernanza:** [GOVERNANCE_MAIN_BRANCH.md](./GOVERNANCE_MAIN_BRANCH.md)
+* **Propietarios de Código:** [CODEOWNERS](./CODEOWNERS)
+* **Licencia:** Pendiente de asignación soberana por HormigasAIS.
