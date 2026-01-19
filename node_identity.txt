@@ -1,0 +1,8 @@
+----------------------------------------------------------------
+  🐜 HormigasAIS | Nodo-Escuela Activo | San Miguel, SV
+  ID_NODO: LBH-SM-001
+  NODE_VERSION: 1.0.0
+  MAESTRO: Cristhiam Leonardo Hernández Quiñonez (CLHQ)
+  MOTOR: Protocolo LBH v1.0 [RSA-2048]
+  ESTADO: Soberanía de Datos Validada
+----------------------------------------------------------------
