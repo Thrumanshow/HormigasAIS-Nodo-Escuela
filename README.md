@@ -1,47 +1,72 @@
-# 🐜 HormigasAIS: Infraestructura de IA Distribuida y Soberana
+🐜 HormigasAIS — Nodo-Escuela
+Infraestructura Distribuida | Soberanía de Datos | Vigilancia Silenciosa
 
-**HormigasAIS** es una infraestructura de inteligencia distribuida basada en el Protocolo LBH (Lenguaje Binario HormigasAIS), orientada a mantener soberanía operativa, seguridad y eficiencia energética.
+📌 Descripción General
+El Nodo-Escuela es un componente soberano del ecosistema HormigasAIS, diseñado para operar como entorno estable, auditado y no ejecutable para validación, observación y formación. Su misión es preservar integridad, evitar ejecución de código externo y garantizar trazabilidad criptográfica bajo el Protocolo LBH v1.0.
 
-## 🚀 Pilares Fundamentales (Protocolo LBH)
-* **Soberanía de Datos**: Procesamiento soberano y local, garantizando que la información no se filtre a terceros no autorizados.
-* **Lenguaje Binario HormigasAIS (LBH)**: Protocolo de comunicación eficiente de los nodos y el bus XOXO.
-* **Eficiencia Energética**: Optimización de recursos para hardware limitado en entornos educativos y de prueba.
+Este repositorio marca el paso del prototipo a la operación real, con políticas explícitas de congelamiento, vigilancia y control de cambios.
 
-## 📍 Nodo Escuela (San Miguel, SV)
-Este repositorio actúa como un **Nodo de Inteligencia** que valida contratos, observa la actividad de los nodos productivos y asegura la soberanía de datos.
+🛡️ Estado Actual de la Infraestructura
+• Identidad criptográfica: RSA-2048 — Activa
+• Protocolo: LBH v1.0
+• Integridad: Sello de Oro Validado 8d5420b
+• Modo operativo: Vigilancia Silenciosa Activa
+• Ubicación lógica: Nodo-Escuela (entorno no ejecutable)
+📄 Documento oficial: ESTADO_ESTABLE.md
 
-### 🛠️ Estructura del Nodo
-* `/scripts`: Motores de análisis y generadores de reportes.
-* `/drafts`: Insumos de seguridad capturados en tiempo real.
-* `/memory`: Registro histórico de inteligencia (Memoria de la Colonia).
+🚫 Directiva de Congelamiento
+A partir del 18 de enero de 2026, quedan prohibidas las modificaciones estructurales en:
+• ~/HormigasAIS_Core/
+• auth_lbh/
 
-## 💰 Inversión Semilla 2025
-* **Objetivo**: 250,000 USD para el escalamiento de la infraestructura soberana.
-* **Fundador**: Cristhiam Leonardo Hernández Quiñonez (Ingeniero de Protocolos LBH)
+Cualquier cambio requiere:
+• Nuevo ciclo de auditoría
+• Validación criptográfica
+• Emisión de acta formal
 
----
-**Estado del Sistema**: 🟢 NODO SOBERANO Y OPERATIVO
+El Nodo-Escuela no ejecuta código, no prueba scripts y no acepta refactors funcionales.
 
-## Gobernanza LBH
+🧬 Principios del Nodo-Escuela
+• Soberanía primero: ningún script externo se ejecuta en este entorno.
+• Lectura > Ejecución: el análisis es estático, documental y lógico.
+• Trazabilidad total: cada estado tiene respaldo en actas y sellos.
+• Silencio operativo: ausencia de ruido, logs mínimos, vigilancia pasiva.
 
-Este repositorio opera bajo principios de soberanía explícita.  
-Ver: `LBH_PROTOCOL/GOVERNANCE/LBH_DESACOPLE_SOBERANO.md`
+📁 Estructura Relevante
+HormigasAIS-Nodo-Escuela/ 
+├── logs/ 
+│ └── vigilancia_activa.log 
+├── ESTADO_ESTABLE.md 
+├── LBH-Key-Rotation.md 
+├── README.md 
+└── (otros documentos no ejecutables) 
 
-🛡️ Principios Activos:
-- Soberanía del Nodo-Escuela
-- Desacople de plataformas no autorizadas (ej. GitLab)
-- Decisión humana sobre automatización
-- Observación y documentación, no replicación
+🔐 Protocolo LBH
+El Lenguaje / Protocolo LBH actúa como contrato de soberanía:
+• Define qué puede y qué no puede hacerse en cada nodo.
+• Bloquea ejecución cruzada entre nodos.
+• Garantiza cadena de mando mediante firmas.
+Versión activa: LBH v1.0
 
-🔒 Lock de Gobernanza Activado:
-Archivo presente: `.LBH_GOVERNANCE_LOCK`
+🔁 Política de Rotación de Claves (Propuesta)
+Documento en evaluación para el ciclo v1.1:
+• Rotación de maestro_private.pem cada 90 días
+• Activación inmediata bajo alerta de intrusión
+• Uso de firmas concatenadas para mantener continuidad de mando
+📄 Ver: LBH-Key-Rotation.md
 
-📡 Estado: Blindaje Permanente · Soberanía Operativa
+🧠 Qué NO es este repositorio
+• ❌ No es un entorno de pruebas
+• ❌ No es un sandbox de ejecución
+• ❌ No es un adapter
+• ❌ No acepta scripts "para probar algo"
+Esto es intencional.
 
----
-❄️ **ESTADO: NODO CONGELADO (ARCHIVED)**
-Este repositorio ha sido sellado por el Ingeniero CLHQ para preservar la integridad del DOI asociado. No se admiten más modificaciones.
+👤 Autoría y Custodia
+Fundador y Responsable: 
+Cristhiam Leonardo Hernández Quiñonez (CLHQ) 
+Arquitecto del Protocolo LBH — HormigasAIS
 
----
-❄️ **ESTADO: NODO CONGELADO (ARCHIVED)**
-Este repositorio ha sido sellado por el Ingeniero CLHQ para preservar la integridad del DOI asociado (https://doi.org/10.5281/zenodo.17070288). La versión actual es la definitiva para fines de auditoría científica y propiedad intelectual.
+📜 Declaración Final
+Cuando un nodo aprende a callar, el sistema completo empieza a pensar.
+🐜 HormigasAIS — Inteligencia distribuida, humana y soberana.
