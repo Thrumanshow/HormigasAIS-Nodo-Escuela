@@ -20,3 +20,4 @@ logs/*.log
 # Python / Entorno
 __pycache__/
 *.py[cod]
+auth_lbh/
