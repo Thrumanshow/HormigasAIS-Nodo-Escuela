@@ -1,3 +1,22 @@
-Contracts/external/GEMINI_HANDSHAKE.lbh
-contracts/external/GEMINI_HANDSHAKE.lbh
-Contracts/external/GEMINI_HANDSHAKE.lbh
+# --- HormigasAIS | Exclusión Soberana ---
+# Protocolos Externos
+contracts/external/
+Contracts/external/
+
+# Seguridad y Llaves (Blindaje Crítico)
+*.pem
+*.key
+*.cert
+.env
+.env.*
+
+# Datos de la Colonia (Privacidad Inversionistas)
+investors_list.csv
+
+# Trazabilidad (Solo local)
+logs/*.log
+*.tmp
+
+# Python / Entorno
+__pycache__/
+*.py[cod]
