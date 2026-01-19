@@ -1,0 +1,9 @@
+{
+  "intruder": "Lalo_Mirmeco_Pattern",
+  "detection_logic": {
+    "translation_hijack": true,
+    "unauthorized_metadata_edit": true
+  },
+  "response_level": "DEFENSIVE_STRIKE",
+  "warning_message": "Propiedad Intelectual de HormigasAIS - Nodo-Escuela"
+}

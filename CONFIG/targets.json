@@ -1,0 +1,11 @@
+{
+  "watch_groups": [
+    "https://gitlab.com/hormigas/ControldeColonias"
+  ],
+  "sensitive_paths": [
+    ".idea",
+    "fastlane/metadata",
+    ".gitlab-ci.yml",
+    "LBH_PROTOCOL"
+  ]
+}
