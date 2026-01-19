@@ -1,15 +1,26 @@
-# 🐜 Resumen Ejecutivo: HormigasAIS
-**Infraestructura de Inteligencia Soberana y Gobernanza Distribuida**
+# 🐜 HormigasAIS: Infraestructura de Inteligencia Soberana
+**Founder:** Cristhiam Leonardo Hernández Quiñonez  
+**Nationality:** Nicaraguan (Resident in El Salvador)  
+**Protocol:** LBH (Lenguaje Binario HormigasAIS) - lbh.human
 
-### 🚩 El Problema
-La IA centralizada genera riesgos legales por acumulación de datos y dependencia de nubes extranjeras que vulneran la soberanía nacional.
+---
 
-### 🐜 La Solución: Protocolo LBH
-* **Soberanía de Borde:** Procesamiento local en nodos soberanos.
-* **Metabolismo Digital:** Clasificación ETERNAL/EXPIRED para cumplimiento automático de leyes (GDPR/Latam).
-* **Resiliencia:** Protocolo Centinela para protección física y lógica.
+## 🚀 La Propuesta
+HormigasAIS no es solo una IA; es una **Colonia de Inteligencia Distribuida**. Resolvemos el problema de la dependencia de nubes centralizadas y el espionaje corporativo mediante agentes autónomos ligeros que operan en el **Edge Computing**.
 
-### 💰 La Oferta: Ronda Pre-Semilla
-Solicitamos **$250,000 USD** para un despliegue de 12 meses, incluyendo la retención del talento clave (Arquitecto de Protocolos) y la expansión de la red de nodos en El Salvador.
+## 💰 Ronda Semilla (Seed Round)
+* **Monto Objetivo:** $250,000 USD
+* **Propósito:** Escalado de la infraestructura de nodos soberanos, optimización del protocolo LBH y despliegue de la red de agentes "Centinelas" para seguridad y automatización industrial.
+* **Valor Diferencial:** Propiedad intelectual total sobre el lenguaje de comunicación (LBH) y soberanía de datos absoluta.
 
-**Cristhiam Leonardo Hernández Quiñonez** | Fundador & CTO
+## 🛠️ Hitos Alcanzados (Q1 2026)
+1.  **LBH Operativo:** Lenguaje propio de comunicación binaria para eficiencia energética extrema.
+2.  **Nodo-Escuela Estable:** Entorno de aprendizaje y validación de agentes distribuido.
+3.  **Soberanía Criptográfica:** Implementación de rotación de llaves RSA y validación de identidad descentralizada.
+4.  **Resiliencia:** Protocolos de "Desacople Soberano" para funcionamiento offline.
+
+## 🐜 Visión
+Convertirnos en el estándar global de inteligencia en el borde, permitiendo que cada empresa sea dueña de su propio "Cerebro de Colonia" sin intermediarios.
+
+---
+**[PULSO_CENTINELA]:** *Integridad validada. La soberanía no se negocia, se construye.*
