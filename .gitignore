@@ -1,23 +1,60 @@
+# =========================================================
 # --- HormigasAIS | Exclusión Soberana ---
-# Protocolos Externos
+# =========================================================
+
+# ---------------------------------------------------------
+# Protocolos Externos (fuera del Núcleo)
+# ---------------------------------------------------------
 contracts/external/
 Contracts/external/
 
+# ---------------------------------------------------------
 # Seguridad y Llaves (Blindaje Crítico)
+# ---------------------------------------------------------
 *.pem
 *.key
 *.cert
+
 .env
 .env.*
+.env_*
 
+# ---------------------------------------------------------
 # Datos de la Colonia (Privacidad Inversionistas)
+# ---------------------------------------------------------
 investors_list.csv
 
-# Trazabilidad (Solo local)
+# ---------------------------------------------------------
+# Runtime, Logs y Trazabilidad (SOLO LOCAL)
+# ---------------------------------------------------------
+*.log
 logs/*.log
+nohup.out
 *.tmp
 
+# ---------------------------------------------------------
+# Estado soberano e identidad local (NO VERSIONABLE)
+# ---------------------------------------------------------
+status_herencia.json
+node_identity.txt
+
+# ---------------------------------------------------------
+# Streams y datos efímeros de ejecución
+# ---------------------------------------------------------
+visual_demo_stream.csv
+visual_demo_stream.csv.bak
+
+# ---------------------------------------------------------
 # Python / Entorno
+# ---------------------------------------------------------
 __pycache__/
 *.py[cod]
+*.pyc
+
 auth_lbh/
+
+# ---------------------------------------------------------
+# Bóveda humana y artefactos sensibles
+# ---------------------------------------------------------
+boveda_seguridad/
+*.human
