@@ -124,6 +124,17 @@ Las decisiones arquitectónicas pesan más que la conveniencia técnica inmediat
 
 ---
 
+## Puerto público de referencia
+
+Para consulta externa de documentación, manifiestos y cláusulas de soberanía, se utiliza el repositorio estático HormigasAIS:
+
+🔗 [https://thrumanshow.github.io/hormigasais-static/](https://thrumanshow.github.io/hormigasais-static/)
+
+> Este puerto es **solo lectura** y no expone archivos de runtime, logs o datos sensibles.
+> El Nodo-Escuela sigue siendo soberano y ejecutable únicamente de forma local.
+
+---
+
 ## Notas finales
 
 Nodo-Escuela no compite con producción.
