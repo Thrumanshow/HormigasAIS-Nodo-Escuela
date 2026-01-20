@@ -1,61 +1,133 @@
 # Arquitectura del Núcleo HormigasAIS – Nodo-Escuela
 
-Este repositorio constituye el **Núcleo operativo y soberano** del sistema HormigasAIS.
-Su función es educativa, estructural y de validación conceptual.
+## Propósito del repositorio
 
-No está diseñado para exposición pública directa ni para consumo como servicio.
+El repositorio **Nodo-Escuela** constituye el núcleo pedagógico y experimental del ecosistema HormigasAIS.
+Su función principal es **enseñar, validar y documentar principios**, no ejecutar sistemas productivos ni automatizaciones activas.
+
+Este repositorio existe para:
+- Definir contratos conceptuales y técnicos.
+- Servir como espacio de aprendizaje controlado.
+- Documentar decisiones arquitectónicas sin riesgo operativo.
+- Evitar acoplamientos prematuros con entornos externos.
+
+Nodo-Escuela **no es un runtime**, es un **espacio de formación y validación**.
+
+---
+
+## Principios arquitectónicos
+
+1. **Soberanía del núcleo**  
+   El núcleo no depende de servicios externos para existir o ser comprendido.
+
+2. **No ejecución por defecto**  
+   Ningún archivo del núcleo se ejecuta automáticamente.
+
+3. **Claridad > Automatización**  
+   La legibilidad y la intención pesan más que la optimización.
+
+4. **Separación estricta de dominios**  
+   El aprendizaje no debe contaminar la operación.
+
+5. **Git como registro, no como oráculo**  
+   GitHub refleja el diseño, no el estado real del sistema local.
+
+---
+
+## Separación de dominios (Núcleo vs Externo)
+
+**Núcleo (este repositorio):**
+- Documentación
+- Especificaciones
+- Protocolos
+- Diagramas conceptuales
+- Ejemplos no ejecutables
+
+**Externo (fuera del repositorio):**
+- Scripts activos
+- Adaptadores
+- Automatizaciones
+- Llaves, tokens, estados
+- Experimentos de runtime
+
+Esta separación es **intencional y obligatoria**.
 
 ---
 
 ## Puerto informativo externo (solo lectura)
 
-Existe un puerto público informativo externo, de carácter **estático y no operativo**,
-destinado únicamente a presencia institucional y referencia documental.
+El Nodo-Escuela puede:
+- Referenciar comportamientos externos
+- Documentar resultados
+- Explicar flujos
 
-Este puerto:
+Pero **nunca ejecuta ni importa** código externo activo.
 
-- No ejecuta código
-- No expone lógica, claves ni interfaces
-- No mantiene dependencia técnica con el Núcleo
-- No recibe datos, eventos ni tráfico de retorno
-- No actúa como API, frontend activo ni servicio intermedio
-
-Su función es **exclusivamente informativa y declarativa**.
-
-El Núcleo de HormigasAIS **no depende** de dicho puerto para su operación,
-validación, ejecución ni toma de decisiones.
+Todo enlace externo se considera:
+> Informativo, no operativo.
 
 ---
 
-## Principio de separación
+## Política de ejecución y dependencia
 
-La arquitectura mantiene una separación estricta entre:
+- No se permite ejecución automática de scripts.
+- No se permiten dependencias activas obligatorias.
+- No se aceptan PRs que introduzcan:
+  - `cron`
+  - `daemon`
+  - `webhooks activos`
+  - ejecución implícita
 
-- **Núcleo**: lógica, contratos, validaciones, aprendizaje y soberanía
-- **Puertos externos**: documentación estática y presencia informativa
-
-Cualquier interpretación distinta a esta separación se considera inválida
-dentro del diseño del sistema.
+Cualquier ejemplo ejecutable debe:
+- Estar claramente marcado como demostrativo.
+- No ejecutarse sin acción explícita del usuario.
 
 ---
 
-## Archivos locales no versionados
- 
-(Runtime soberano):
+## Archivos locales no versionados (runtime soberano)
 
-El Nodo-Escuela puede generar y utilizar archivos locales que no forman parte del Núcleo versionado y, por diseño, no se sincronizan con GitHub.
-Estos archivos existen únicamente en el entorno local de ejecución y cumplen funciones operativas, de seguridad o de observación temporal.
-Características de estos archivos:
-No representan estado arquitectónico del sistema
-No contienen lógica nuclear versionada
-No son requeridos para clonar, compilar o auditar el repositorio
-No deben ser incluidos en commits ni pull requests
-Su exclusión es intencional y está gobernada por .gitignore
-Ejemplos de categorías locales no versionadas:
-Variables de entorno y credenciales (.env*)
-Registros de actividad y trazabilidad local (*.log)
-Artefactos humanos o de certificación (*.human)
-Scripts operativos de uso local (scripts/, *.sh, *.py)
-Documentación dinámica generada en tiempo real
-La presencia de estos archivos no indica error, desalineación ni estado inconsistente del repositorio.
-Su coexistencia con el Núcleo es una decisión arquitectónica consciente que preserva la soberanía, seguridad y estabilidad del Nodo-Escuela.
+Existen archivos que **sí funcionan localmente**, pero **no deben ser versionados**.
+
+Estos archivos:
+- Son válidos.
+- Son funcionales.
+- Son deliberadamente invisibles para GitHub mediante `.gitignore`.
+
+Ejemplos comunes:
+- Logs de ejecución
+- Estados temporales
+- Scripts de prueba local
+- Variables de entorno
+- Adaptadores en fase experimental
+
+El uso de `.gitignore` **no invalida** estos archivos.
+Al contrario:
+> Preserva la soberanía del runtime local y evita conflictos estructurales.
+
+GitHub **no necesita verlos** para que el sistema funcione.
+
+---
+
+## Gobernanza y cambios estructurales
+
+Cualquier cambio que afecte:
+- La política de ejecución
+- La separación de dominios
+- El rol del Nodo-Escuela
+
+Debe:
+1. Justificarse explícitamente.
+2. Documentarse antes de implementarse.
+3. No romper la soberanía del núcleo.
+
+Las decisiones arquitectónicas pesan más que la conveniencia técnica inmediata.
+
+---
+
+## Notas finales
+
+Nodo-Escuela no compite con producción.
+Nodo-Escuela **protege el pensamiento**.
+
+La arquitectura aquí descrita es un contrato.
+Romperlo implica rediseñar, no improvisar.
