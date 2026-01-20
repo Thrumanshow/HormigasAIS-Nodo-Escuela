@@ -36,3 +36,26 @@ La arquitectura mantiene una separación estricta entre:
 
 Cualquier interpretación distinta a esta separación se considera inválida
 dentro del diseño del sistema.
+
+---
+
+## Archivos locales no versionados
+ 
+(Runtime soberano):
+
+El Nodo-Escuela puede generar y utilizar archivos locales que no forman parte del Núcleo versionado y, por diseño, no se sincronizan con GitHub.
+Estos archivos existen únicamente en el entorno local de ejecución y cumplen funciones operativas, de seguridad o de observación temporal.
+Características de estos archivos:
+No representan estado arquitectónico del sistema
+No contienen lógica nuclear versionada
+No son requeridos para clonar, compilar o auditar el repositorio
+No deben ser incluidos en commits ni pull requests
+Su exclusión es intencional y está gobernada por .gitignore
+Ejemplos de categorías locales no versionadas:
+Variables de entorno y credenciales (.env*)
+Registros de actividad y trazabilidad local (*.log)
+Artefactos humanos o de certificación (*.human)
+Scripts operativos de uso local (scripts/, *.sh, *.py)
+Documentación dinámica generada en tiempo real
+La presencia de estos archivos no indica error, desalineación ni estado inconsistente del repositorio.
+Su coexistencia con el Núcleo es una decisión arquitectónica consciente que preserva la soberanía, seguridad y estabilidad del Nodo-Escuela.
